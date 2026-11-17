@@ -1,0 +1,3 @@
+body { padding-top: 34px; }
+.free-work { padding-top: 38px; }
+.free-work > h2 { margin-bottom: clamp(28px, 4vw, 58px); }
