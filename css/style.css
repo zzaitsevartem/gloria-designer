@@ -145,8 +145,9 @@ h1, .work h2, .footer h2 {
 }
 
 .footer h2 { font-size: clamp(42px, 6vw, 100px); }
+.footer-contact { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; text-align: right; }
 .footer-contact p { margin-bottom: 12px; color: var(--muted); font-size: 14px; }
-.footer-contact a { display: inline; padding: 0; background: transparent; color: inherit; font-size: inherit; text-decoration: none; }
+.footer-contact a { display: inline-block; padding: 0; background: transparent; color: inherit; font-size: inherit; text-decoration: none; }
 .footer-contact a:hover { text-decoration: underline; }
 
 .footer-bottom {
@@ -388,7 +389,7 @@ html { scroll-behavior: smooth; }
   .footer { padding-inline: 18px; }
   .footer-top { align-items: center; flex-direction: column; text-align: center; }
   .footer-top h2 { font-size: 34px !important; }
-  .footer-contact { text-align: center; }
+  .footer-contact { align-items: center; text-align: center; }
   .footer-word { font-size: 25cqw; }
   .fct-pair { gap: 8px; }
 }
